@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# --- Virtual environments ---
+.env
+.venv
+venv/
+ENV/
+/data
+
+# --- IDE / Editors ---
+# PyCharm
+.idea/
+# VSCode
+.vscode/
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.temp
+
+# --- Cache ---
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# --- Poetry ---
+.poetry/
+
+# --- dotenv / secrets ---
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# --- Django / Flask (opcjonalnie) ---
+*.sqlite3
+instance/
