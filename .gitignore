@@ -14,8 +14,9 @@ pip-wheel-metadata/
 .venv
 venv/
 ENV/
-/data
-/models
+data/
+models/
+results/
 
 # --- IDE / Editors ---
 # PyCharm
