@@ -51,6 +51,20 @@ Zainstaluj wymagane biblioteki:
 pip install -r requirements.txt
 ```
 
+Aby poprawnie odtworzyć wszystkie wyniki, notatniki należy uruchamiać
+**kolejno, w podanej kolejności**:
+
+1. `1_EDA.ipynb` 
+2. `2_Preprocessing_Features.ipynb`
+3. `3_Models_Training.ipynb`  
+4. `4_Evaluation.ipynb` 
+5. `5_Model_Demo.ipynb`
+
+Podczas wykonywania notatników kolejne foldery i pliki (np. `data/processed`,
+`models`, `results`) są **tworzone automatycznie** na podstawie wyników
+uzyskanych w poprzednich etapach.
+
+---
 
 ## **2. Opis projektu**
 Celem projektu jest stworzenie systemu klasyfikującego wiadomości newsowe
