@@ -5,7 +5,8 @@
 Klasyfikacja tematów wiadomości newsowych z wykorzystaniem NLP    
 
 **Autor:**  
-Daniel Gruszkowski 
+Daniel Gruszkowski
+s34326
 
 **Kierunek, rok i tryb studiów:**  
 *Informatyka, semestr III, Magisterskie internetowe*  
@@ -14,6 +15,42 @@ Daniel Gruszkowski
 17.01.2025  
 
 ---
+
+URUCHOMIENIE PROJEKTU
+
+Wymagania:
+- Python 3.12
+- pip
+
+#### *Utworzenie środowiska wirtualnego*
+
+W katalogu głównym projektu wykonaj:
+```bash 
+python -m venv .venv
+```
+
+#### *Aktywacja środowiska*
+
+macOS / Linux:
+```bash
+source .venv/bin/activate
+```
+
+Windows (PowerShell):
+```bash
+.venv\Scripts\Activate.ps1
+```
+
+Po aktywacji w terminalu pojawi się prefiks:
+(.venv)
+
+#### *Instalacja zależności*
+
+Zainstaluj wymagane biblioteki:
+```bash
+pip install -r requirements.txt
+```
+
 
 ## **2. Opis projektu**
 Celem projektu jest stworzenie systemu klasyfikującego wiadomości newsowe
@@ -41,7 +78,7 @@ oraz modelu transformerowego.
   - Sports  
   - Business  
   - Sci/Tech  
-- licencja: 
+- licencja: MIT License
 
 
 **Uwaga dotycząca danych:**  
@@ -119,7 +156,7 @@ Projekt obejmuje trzy różne podejścia do modelowania danych:
 | Model | Accuracy (test) | F1 macro (test) |
 |------|-----------------|-----------------|
 | LogReg + TF-IDF | 0.915 | 0.915 |
-| Simple NN | 0.910 | 0.910 |
+| Simple NN | 0.912 | 0.912 |
 | DistilBERT | 0.946 | 0.946 |
 
 **Wizualizacje:**  
@@ -162,17 +199,17 @@ projekt_zum_2025/
 └── requirements.txt
 ```
 ## **10. Technologia i biblioteki**
-- python 3.12
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- tensorflow
-- datasets
-- transformers
-- evaluate
-- joblib
+- Python 3.12 
+- NumPy  
+- Pandas  
+- Matplotlib  
+- scikit-learn  
+- PyTorch  
+- HuggingFace Transformers  
+- HuggingFace Datasets  
+- HuggingFace Accelerate  
+- evaluate  
+- joblib  
 
 ---
 
@@ -180,5 +217,6 @@ projekt_zum_2025/
 Projekt udostępniony na licencji:  
 *MIT License*  
 
-Źródło danych: zgodnie z licencją wskazaną w sekcji **[Dane](https://huggingface.co/datasets/sh0416/ag_news)**.
+Źródło danych: zgodnie z licencją wskazaną w sekcji **
+[Dane](https://huggingface.co/datasets/sh0416/ag_news)**.
 
